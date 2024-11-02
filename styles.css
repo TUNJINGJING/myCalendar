@@ -107,8 +107,9 @@ body {
 }
 
 h1 {
-  color: #333;
-  margin-bottom: 10px;
+  color:#4CAF50;
+  margin-bottom: 30px;
+  margin-top: 30px; /* 向下移动标题 */
 }
 
 .controls {
@@ -121,7 +122,7 @@ h1 {
 
 /* 修改选择框样式 */
 .controls select {
-  padding: 8px 12px;
+  padding: 5px 12px;
   border-radius: 6px;
   border: 1px solid #ddd;
   background-color: #fff;
@@ -140,7 +141,7 @@ h1 {
 
 /* 为按钮添加一致的风格 */
 button {
-  padding: 8px 12px;
+  padding: 6px 12px;
   background-color: #4CAF50;
   color: white;
   border: none;
